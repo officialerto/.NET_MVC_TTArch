@@ -47,5 +47,22 @@ namespace MVC_ThreeTierArch.Controllers
             Response.Write("Successfully Deleted!");
         }
 
+        [HttpPost]
+        public void EditReg(FormCollection Form)
+        {
+            RegistrationModel RegModel = new RegistrationModel()
+            {
+                RegId = Convert.ToInt32(Form["txtID"]),
+                Address = Form["txtAddress"],
+                City = Form["txtCity"],
+                Cno = Form["txtCno"],
+                DoB = Convert.ToDateTime(Form["txtDoB"]),
+                FullName = Form["txtName"],
+                Gender = Form["rdbGender"]
+            };
+
+            ManageReg.EditReg(RegModel);
+            Response.Write("Successfully Saved!");
+        }
     }
 }

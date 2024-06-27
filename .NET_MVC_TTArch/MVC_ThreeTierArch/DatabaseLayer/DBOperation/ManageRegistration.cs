@@ -50,7 +50,26 @@ namespace DatabaseLayer.DBOperation
                     DB.SaveChanges();
                 }
             }
-
         }
+
+        public void EditReg(RegistrationModel RegModel)
+        {
+            using (var DB = new MYDBEntities())
+            {
+                Registration Reg = new Registration()
+                {
+                    RegId = RegModel.RegId,
+                    Address = RegModel.Address,
+                    City = RegModel.City,
+                    Cno = RegModel.Cno,
+                    DoB = RegModel.DoB,
+                    FullName = RegModel.FullName,
+                    Gender = RegModel.Gender
+                };
+                DB.Entry(Reg).State = System.Data.Entity.EntityState.Modified;
+                DB.SaveChanges();
+            }
+        }
+
     }
 }

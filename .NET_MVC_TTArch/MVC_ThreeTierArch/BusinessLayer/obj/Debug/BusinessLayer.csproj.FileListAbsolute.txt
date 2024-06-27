@@ -4,3 +4,9 @@ D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\BusinessLayer\obj\Debug\BusinessLaye
 D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
 D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Github\.NET_MVC_TTArch\.NET_MVC_TTArch\MVC_ThreeTierArch\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Github\.NET_MVC_TTArch\.NET_MVC_TTArch\MVC_ThreeTierArch\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Github\.NET_MVC_TTArch\.NET_MVC_TTArch\MVC_ThreeTierArch\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Github\.NET_MVC_TTArch\.NET_MVC_TTArch\MVC_ThreeTierArch\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Github\.NET_MVC_TTArch\.NET_MVC_TTArch\MVC_ThreeTierArch\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Github\.NET_MVC_TTArch\.NET_MVC_TTArch\MVC_ThreeTierArch\BusinessLayer\obj\Debug\BusinessLayer.pdb
