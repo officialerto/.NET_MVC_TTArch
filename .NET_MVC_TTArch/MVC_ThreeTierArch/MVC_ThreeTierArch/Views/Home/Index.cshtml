@@ -1,0 +1,172 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #ddd;
+    }
+
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+    }
+</style>
+
+<script src="~/Scripts/jquery-3.7.1.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $("#btnSave").click(function () {
+            document.getElementById("Loading").style.display = "initial";
+            document.getElementById("Data").style.display = "none";
+
+            var form_data = new FormData(document.getElementById("Form1"));
+            form_data.append("label", "WEBUPLOAD");
+
+            $.ajax({
+                url: "AddReg",
+                type: "POST",
+                data: form_data,
+                processData: false,
+                contentType: false
+            }).done(function (data) {
+                console.log(data);
+                $('#Form1')[0].reset();
+                alert(data);
+
+                document.getElementById("Loading").style.display = "none";
+                document.getElementById("Data").style.display = "initial";
+                fetchData();
+            });
+        });
+    });
+
+</script>
+
+<form method="post" id="Form1">
+
+    <div id="Loading">
+        <img src="~/Content/Loading_icon.gif" />
+    </div>
+    <script>
+        document.getElementById("Loading").style.display = "none";
+    </script>
+    <div id="Data">
+
+        <table>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" name="txtName" id="txtName" /> </td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td><textarea type="text" name="txtAddress" id="txtAddress"> </textarea></td>
+            </tr>
+
+            <tr>
+                <td>City</td>
+                <td>
+                    <select name="txtCity" id="txtCity">
+                        <option value="Select City"></option>
+                        <option value="Bharuch">Bharuch</option>
+                        <option value="Baroda">Baroda</option>
+                        <option value="Surat">Surat</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>DoB</td>
+                <td><input type="date" name="txtDoB" id="txtDoB" /> </td>
+            </tr>
+
+            <tr>
+                <td>Contact No</td>
+                <td><input type="text" name="txtCno" id="txtCno" /> </td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="rdbGender" id="rdbMale" value="Male" />Male</td>
+                <td><input type="radio" name="rdbGender" id="rdbFemale" value="Female" />Female</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="button" name="btnSave" id="btnSave" value="Save" /> </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <table id="RegList">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>DoB</th>
+            <th>Contact No</th>
+            <th>Gender</th>
+            <th>Action</th>
+        </tr>
+    </table>
+    <script>
+        function fetchData() {
+            $.get("ListData", function (data) {
+                $.each($.parseJSON(data), function (index, row) {
+                    var Method = "ConfirmDelete('" + row.RegId + "')";
+                    $("#RegList").append('<tr><td>' + row.FullName + '</td><td>' + row.Address + '</td><td>' + row.City +
+                        '</td><td>' + row.DoB + '</td><td>' + row.Cno + '</td><td>' + row.Gender + '</td><td> <a href="#" onclick="' + Method + '">Delete</a> </td></tr>')
+                });
+            });
+        }
+
+        function ConfirmDelete(Id) {
+            var Result = confirm("Are you sure want to delete this record??");
+            if (Result == true) {
+                var form_data = new FormData(document.getElementById("Form1"));
+                form_data.append("label", "WEBUPLOAD");
+
+                $.ajax({
+                    url: "DeleteReg?ID=" + Id,
+                    type: "POST",
+                    data: form_data,
+                    processData: false,
+                    contentType: false
+                }).done(function (data) {
+                    console.log(data);
+                    $('#Form1')[0].reset();
+                    alert(data);
+
+                    fetchData();
+                });
+            }
+        }
+
+        fetchData();
+
+    </script>
+
+
+</form>

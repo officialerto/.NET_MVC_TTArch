@@ -1,0 +1,15 @@
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\bin\Debug\DatabaseLayer.dll
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\bin\Debug\DatabaseLayer.pdb
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\bin\Debug\BusinessLayer.dll
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\bin\Debug\BusinessLayer.pdb
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\obj\Debug\DatabaseLayer.csproj.AssemblyReference.cache
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\obj\Debug\DatabaseLayer.csproj.CoreCompileInputs.cache
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\obj\Debug\Database.D87FB5DC.Up2Date
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\obj\Debug\DatabaseLayer.dll
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\obj\Debug\DatabaseLayer.pdb
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\bin\Debug\DatabaseLayer.dll.config
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\bin\Debug\EntityFramework.dll
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\bin\Debug\EntityFramework.xml
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Github\.NET_MVC_TTArch\MVC_ThreeTierArch\DatabaseLayer\bin\Debug\Newtonsoft.Json.dll

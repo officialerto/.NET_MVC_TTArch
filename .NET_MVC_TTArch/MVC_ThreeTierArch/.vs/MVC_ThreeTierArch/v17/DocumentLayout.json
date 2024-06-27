@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\.NET_MVC_TTArch\\MVC_ThreeTierArch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3DCEC9-FD25-46A8-B31E-79490E5F03D2}|MVC_ThreeTierArch\\MVC_ThreeTierArch.csproj|d:\\github\\.net_mvc_ttarch\\mvc_threetierarch\\mvc_threetierarch\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C3DCEC9-FD25-46A8-B31E-79490E5F03D2}|MVC_ThreeTierArch\\MVC_ThreeTierArch.csproj|solutionrelative:mvc_threetierarch\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE4333D4-3339-4286-B85C-5EDB0F978AC6}|DatabaseLayer\\DatabaseLayer.csproj|D:\\Github\\.NET_MVC_TTArch\\MVC_ThreeTierArch\\databaselayer\\dboperation\\manageregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE4333D4-3339-4286-B85C-5EDB0F978AC6}|DatabaseLayer\\DatabaseLayer.csproj|solutionrelative:databaselayer\\dboperation\\manageregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3DCEC9-FD25-46A8-B31E-79490E5F03D2}|MVC_ThreeTierArch\\MVC_ThreeTierArch.csproj|D:\\Github\\.NET_MVC_TTArch\\MVC_ThreeTierArch\\mvc_threetierarch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3DCEC9-FD25-46A8-B31E-79490E5F03D2}|MVC_ThreeTierArch\\MVC_ThreeTierArch.csproj|solutionrelative:mvc_threetierarch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 197,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\.NET_MVC_TTArch\\MVC_ThreeTierArch\\MVC_ThreeTierArch\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_ThreeTierArch\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Github\\.NET_MVC_TTArch\\MVC_ThreeTierArch\\MVC_ThreeTierArch\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVC_ThreeTierArch\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAowKAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T18:50:58.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageRegistration.cs",
+              "DocumentMoniker": "D:\\Github\\.NET_MVC_TTArch\\MVC_ThreeTierArch\\DatabaseLayer\\DBOperation\\ManageRegistration.cs",
+              "RelativeDocumentMoniker": "DatabaseLayer\\DBOperation\\ManageRegistration.cs",
+              "ToolTip": "D:\\Github\\.NET_MVC_TTArch\\MVC_ThreeTierArch\\DatabaseLayer\\DBOperation\\ManageRegistration.cs",
+              "RelativeToolTip": "DatabaseLayer\\DBOperation\\ManageRegistration.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T18:47:49.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Github\\.NET_MVC_TTArch\\MVC_ThreeTierArch\\MVC_ThreeTierArch\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVC_ThreeTierArch\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Github\\.NET_MVC_TTArch\\MVC_ThreeTierArch\\MVC_ThreeTierArch\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVC_ThreeTierArch\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T18:24:35.114Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
